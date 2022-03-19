@@ -10,7 +10,6 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
 nav {
  background-color: #BFECC7;
 }
@@ -20,8 +19,6 @@ nav {
   border-color: #DCDCDC;
   display: flex;
   justify-content: space-between;
-  
-  
 }
 
 .menu {
@@ -48,6 +45,9 @@ ol {
   
 }
 
+.subMenu {
+  display: none;
+}
 
 main {
   width: 90%;
