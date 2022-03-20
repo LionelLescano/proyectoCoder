@@ -42,6 +42,7 @@ a {
   color: black;
   display: inline-block;
 }
+
 img {
   max-width: 100%;
   border-radius: 50%;
@@ -53,6 +54,7 @@ body {
   background-color: var(--principalColor);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 /*helpers*/
 
 
@@ -109,7 +111,7 @@ header .menu__item {
 header .menu__item:hover {
   border: 2px solid var(--secondaryColor);
   background-color: var(--secondaryColor);
- 
+
 }
 
 .menu .menu__item .menu__link {
@@ -151,10 +153,10 @@ main .contenedor {
 }
 
 main .contenedor__principal {
-  background-color:var(--secondaryColor);
+  background-color: var(--secondaryColor);
   font-size: var(--text-lg);
-  padding: 3rem;  
-  
+  padding: 3rem;
+
   border-bottom: var(--secondaryColor);
   border-left: var(--principalColor);
   border-right: var(--principalColor);
@@ -163,9 +165,9 @@ main .contenedor__principal {
 }
 
 main .contenedor__clientes {
-  background-color:var(--secondaryColor);
+  background-color: var(--secondaryColor);
   font-size: var(--text-lg);
-  padding: 3rem;  
+  padding: 3rem;
   border-bottom: var(--secondaryColor);
   border-left: var(--principalColor);
   border-right: var(--principalColor);
@@ -185,8 +187,8 @@ main .contenedor__clientes .clientes_enlaces {
 main .contenedor__clientes .clientes_enlaces:hover {
   color: black;
   background-color: #ACECF7;
-  
-  
+
+
 }
 
 
@@ -211,19 +213,20 @@ footer .footer__lista {
   font-size: var(--text-lg);
 
 }
+
 footer .footer__logo {
   padding: 2rem;
 }
 
-footer h4{
+footer h4 {
   font-size: var(--text-lg);
 }
 
 .footer__logo a {
-  justify-content:right;
+  justify-content: right;
 }
 
-.footer__redes-logos .footer__redes--imagen{
+.footer__redes-logos .footer__redes--imagen {
   justify-content: space-around;
 
 }
