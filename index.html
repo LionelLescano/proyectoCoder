@@ -6,37 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+
 
     <title>Muebles S.R.L.</title>
 
 </head>
 
-
 <body>
     <!--comienzo de HEADER -->
     <header>
-
-        <nav>
-            <div class="padre">
-                <div>
-                    <img class="imagen_logo" src="./assets/images/mueblessrl.png" alt="logo_empresa"> 
-                </div>
-                <div class ="padre2">
-                    <ul class="menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="assets/pages/ubicacion.html">Donde estamos</a></li>
-                        <li><a href="assets/pages/gallery.html">Galeria de nuestras propiedades </a></li>
-                        <li><a href="assets/pages/rentabilidad.html"> Nuetros alquileres en CABA / Rentabilidad anual
-                                <ul class="subMenu">
-                                    <li> <a href="assets/pages/rentabilidad.html"> Zona Norte</a></li>
-                                    <li> <a href="assets/pages/rentabilidad.html"> Zona Sur</a></li>
-                                </ul>
-                            </a> </li>
-                        <li><a href="https://www.youtube.com/watch?v=MP5azPfyTDc">Nuestro canal de youtube</a></li>
-                        <li><a href="assets/Pages/contacto.html">Contactanos para decirnos tu propuesta </a> </li>
-                    </ul>
-                </div>
+        <nav class="navbar flex-row container">
+            <picture class="logoEmpresa">
+                <a href="./index.html">
+                    <img src="./assets/images/mueblessrl.png" alt="logo_empresa">
+                </a>
+            </picture>
+            <ul class="menu flex-row ">
+                <li class="menu__item">
+                    <a href="index.html " class="menu__link">Home</a></li>
+                <li class="menu__item">
+                    <a href="assets/pages/ubicacion.html" class="menu__link">Donde estamos</a></li>
+                <li class="menu__item">
+                    <a href="assets/pages/gallery.html" class="menu__link">Galeria de nuestras
+                        propiedades </a></li>
+                <li class="menu__item">
+                    <a href="assets/pages/rentabilidad.html" class="menu__link"> Nuetros alquileres
+                        en CABA / Rentabilidad anual
+                    </a> </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="https://www.youtube.com/watch?v=MP5azPfyTDc">Nuestro canal de
+                        youtube</a></li>
+                <li class="menu__item">
+                    <a class="menu__link" href="assets/Pages/contacto.html">Contactanos para decirnos tu propuesta </a>
+                </li>
+            </ul>
+            </div>
             </div>
 
         </nav>
@@ -49,9 +54,9 @@
 
 
     <main>
-        <section>
+        <section class="contenedor container">
             <article>
-                <div class="contenedor-principal">
+                <div class="contenedor__principal container  ">
                     <h2>Quienes somos?</h2><br>
                     <p>Nos dedicamos a la compra y venta de bienes inmuebles (casas, departamentos, comercios,
                         terrenos, etc). También brindamos
@@ -83,23 +88,10 @@
                         piso.
                     </p><br>
 
-                    <p>Nosotros como empresa tenemos como visión de ser una de las inmobiliarias de mayor credibilidad,
-                        ya que cuando estas los clientes son correctamente administrados alcanzan los
-                        réditos previstos.
-                    </p>
-
-                    <p>Nosotros como empresa tenemos como visión de ser una de las inmobiliarias de mayor credibilidad,
-                        ya que cuando estas los clientes son correctamente administrados alcanzan los
-                        réditos previstos.
-                    </p>
-
-                    <p>Nosotros como empresa tenemos como visión de ser una de las inmobiliarias de mayor credibilidad,
-                        ya que cuando estas los clientes son correctamente administrados alcanzan los
-                        réditos previstos.
                     </p>
                 </div>
 
-                <div class="contenedor-clientes">
+                <div class="contenedor__clientes container">
                     <h3>Nuestros clientes mas importantes:</h3><br>
                     <ol>
                         <li><a class="clientes_enlaces" href="https://www.kwargentina.com/"> - Keller Williams. </a>
@@ -109,7 +101,6 @@
                         <li><a class="clientes_enlaces" href="https://www.coldwellbanker.com.ar/"> -Coldwell Banker
                                 Realtys</a> </li><br>
                 </div>
-
                 </ol>
             </article>
         </section>
@@ -119,10 +110,16 @@
     <!--comiendo del FOOTER  -->
 
 
-    <footer>
+    <footer class="footer container flex-column">
 
-        <div><img class="imagen_logo_footer" src="./assets/images/mueblessrl.png" alt="logo_empresa"></div>
-        <div class="footer_derechos">
+        <picture class="footer__logo">
+            <a href="./index.html">
+
+                <img src="./assets/images/mueblessrl.png" alt="logo_empresa" width="70%">
+
+            </a>
+        </picture>
+        <div class="footer__derechos">
             <p>
                 Muebles Argentina S.R.L NO ejerce el corretaje inmobiliario. Cada oficina es de propiedad y gestión
                 independiente. En cumplimiento de las leyes vigentes que regulan el corretaje inmobiliario, Ley Nacional
@@ -131,21 +128,26 @@
                 inmobiliario.
             </p><br>
         </div>
-        <div class="footer_redes_links">
-            <h4>Seguinos en nuetras redes:</h4>
-            <ul class="footer_redes_logos">
-                <li><a href="https://www.facebook.com/"><img src="./assets/images/facebook-square-logo-24.png"
-                            alt="logofacebook"></a></li>
-                <li><a href="https://www.instagram.com/"><img src="./assets/images/bxl-instagram-alt.png"
-                            alt="logoinstagram"></a></li>
-                <li><a href="https://www.twitter.com/"><img src="./assets/images/bxl-twitter.png" alt="logotwitter"></a>
-                </li>
-                <li><a href="https://www.youtube.com/"><img src="./assets/images/bxl-youtube.png" alt="logoyoutube"></a>
-                </li>
-            </ul>
+
+        <div class="footer__extras flex-column">
+            <div class="footer__redes-links">
+                <h4>Seguinos en nuetras redes:</h4>
+                <ul class="footer__redes-logos flex-row">
+                    <li><a class="footer__redes--imagen" href="https://www.facebook.com/"><img
+                                src="./assets/images/facebook-square-logo-24.png" alt="logofacebook"  width="40px"></a></li>
+                    <li><a class="footer__redes--imagen" href="https://www.instagram.com/"><img
+                                src="./assets/images/bxl-instagram-alt.png" alt="logoinstagram" width="40px"></a></li>
+                    <li><a class="footer__redes--imagen" href="https://www.twitter.com/"><img
+                                src="./assets/images/bxl-twitter.png" alt="logotwitter" width="40px"></a>
+                    </li> 
+                    <li><a class="footer__redes--imagen" href="https://www.youtube.com/"><img
+                                src="./assets/images/bxl-youtube.png" alt="logoyoutube" width="40px"></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="footer_links">
-            <ul>
+        <!-- <div>
+            <ul class=" footer__lista flex-row">
                 <li><a class="footer_enlace" href="./assets/pages/ubicacion.html">Donde estamos </a></li>
                 <li><a class="footer_enlace" href="./assets/pages/contacto.html">Contactanos para decirnos tu propuesta
                     </a></li>
@@ -160,12 +162,9 @@
                 <li><a class="footer_enlace" href="index.html">Home</a></li>
 
             </ul>
-        </div>
-
-
+        </div> -->
 
     </footer>
-
 </body>
 
 </html>

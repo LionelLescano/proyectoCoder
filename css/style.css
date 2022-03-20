@@ -1,0 +1,229 @@
+/* imports*/
+
+/* variables*/
+
+:root {
+
+  --principalColor: #BFECC7;
+  --secondaryColor: white;
+  --text-lg: 1.9em;
+  --text-md: 1.4em;
+
+}
+
+
+/* Reset */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* globales*/
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+img {
+  max-width: 100%;
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+}
+
+body {
+  background-color: var(--principalColor);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*helpers*/
+
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+  background-color: var(--principalColor);
+}
+
+header .navbar {
+  min-height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  margin-bottom: 5rem;
+  border-bottom: var(--secondaryColor);
+  border-left: var(--secondaryColor);
+  border-right: var(--secondaryColor);
+  border-top: var(--principalColor);
+  border-style: solid;
+}
+
+header .logoEmpresa {
+  flex-basis: 30%;
+  padding: 2rem;
+}
+
+header .menu {
+  flex-basis: 40%;
+  justify-content: space-between;
+
+}
+
+header .menu__item {
+  border: 2px solid var(--principalColor);
+  transition: border-color .2s ease-in-out;
+  background-color: var(--principalColor);
+}
+
+header .menu__item:hover {
+  border: 2px solid var(--secondaryColor);
+  background-color: var(--secondaryColor);
+ 
+}
+
+.menu .menu__item .menu__link {
+  font-size: var(--text-md);
+  padding: 1rem;
+}
+
+/*.sub-menu {
+  display: none;
+  position: absolute;
+}
+
+.menu .menu__item:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu .sub-menu__item .sub-menu__link{
+  padding: 1rem;
+  font-size: var(--text-md);
+  transition: all .3s ease-in-out;
+}
+
+.sub-menu .sub-menu__item .sub-menu__link:hover{
+  background-color: var(--secondaryColor);
+}*/
+
+main {
+  border-style: solid var(--secondaryColor) 50px;
+  padding: 1rem;
+  background-image: url("https://images.unsplash.com/photo-1647258607189-f0bae637f02c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+}
+
+main .contenedor {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #ACECF7;
+  font-size: var(--text-md);
+  padding: 4rem;
+}
+
+main .contenedor__principal {
+  background-color:var(--secondaryColor);
+  font-size: var(--text-lg);
+  padding: 3rem;  
+  
+  border-bottom: var(--secondaryColor);
+  border-left: var(--principalColor);
+  border-right: var(--principalColor);
+  border-top: var(--principalColor);
+  border-style: solid;
+}
+
+main .contenedor__clientes {
+  background-color:var(--secondaryColor);
+  font-size: var(--text-lg);
+  padding: 3rem;  
+  border-bottom: var(--secondaryColor);
+  border-left: var(--principalColor);
+  border-right: var(--principalColor);
+  border-top: var(--principalColor);
+  border-style: solid;
+}
+
+main .contenedor__clientes .clientes_enlaces {
+  color: black;
+  background-color: var(--secondaryColor);
+  padding: 1rem;
+  transition: background-color .10s ease-in-out;
+  border-style: solid;
+  border-color: var(--secondaryColor);
+}
+
+main .contenedor__clientes .clientes_enlaces:hover {
+  color: black;
+  background-color: #ACECF7;
+  
+  
+}
+
+
+footer {
+  background-color: var(--principalColor);
+  min-height: 10vh;
+}
+
+footer .footer__logo {
+  align-items: flex-end;
+  padding: 3rem;
+}
+
+footer .footer_derechos {
+  padding: 5rem;
+}
+
+footer .footer__lista {
+  flex-basis: 40%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--text-lg);
+
+}
+footer .footer__logo {
+  padding: 2rem;
+}
+
+footer h4{
+  font-size: var(--text-lg);
+}
+
+.footer__logo a {
+  justify-content:right;
+}
+
+.footer__redes-logos .footer__redes--imagen{
+  justify-content: space-around;
+
+}
