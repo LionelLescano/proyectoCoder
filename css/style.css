@@ -44,7 +44,9 @@ a {
 }
 
 img {
-  max-width: 100%;
+  display:block;
+  width: 100%;
+  max-width: 300px;
   border-radius: 50%;
   border-color: white;
   border-style: solid;
@@ -119,24 +121,15 @@ header .menu__item:hover {
   padding: 1rem;
 }
 
-/*.sub-menu {
-  display: none;
-  position: absolute;
-}
+@media (max-width:600px) {
 
-.menu .menu__item:hover .sub-menu {
-  display: block;
-}
+  .navbar {
 
-.sub-menu .sub-menu__item .sub-menu__link{
-  padding: 1rem;
-  font-size: var(--text-md);
-  transition: all .3s ease-in-out;
-}
+    flex-direction: column;
+    align-items: center;
+  }
 
-.sub-menu .sub-menu__item .sub-menu__link:hover{
-  background-color: var(--secondaryColor);
-}*/
+}
 
 main {
   border-style: solid var(--secondaryColor) 50px;
