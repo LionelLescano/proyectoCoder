@@ -175,9 +175,9 @@ header .menu__item:hover {
   padding: 1rem;
 }
 
-header nav form input{
+header nav form input {
   max-width: 250px;
-  }
+}
 
 
 /* @media (max-width:600px) {
@@ -195,7 +195,7 @@ main {
   /* background-repeat: space; */
   padding: 1rem;
   background-image: url("../assets/images/fondo.jpg");
-  
+
 }
 
 main .contenedor {
@@ -218,7 +218,7 @@ main .contenedor__principal {
   font-size: var(--text-lg);
   border-radius: 10%;
   padding: 3rem;
-  
+
   border-bottom: var(--secondaryColor);
   border-left: var(--principalColor);
   border-right: var(--principalColor);
@@ -236,7 +236,7 @@ main .contenedor__clientes {
   border-right: var(--principalColor);
   border-top: var(--principalColor);
   border-style: solid;
-  margin-top: 50px  ;
+  margin-top: 50px;
 }
 
 main .contenedor__clientes .clientes_enlaces {
@@ -268,7 +268,7 @@ main .contenedor__clientes .clientes_enlaces:hover {
   margin: 2rem auto;
   font-size: 2em;
   font-style: italic;
-  
+
 
 }
 
@@ -292,7 +292,7 @@ main .contenedor__clientes .clientes_enlaces:hover {
   .contenedor-gallery {
     font-size: 1.3em;
   }
-  
+
 }
 
 footer {
@@ -337,9 +337,9 @@ footer h4 {
 }
 
 @media (max-width: 425px) {
-  main picture img{
+  main picture img {
     align-items: center;
-  
+
   }
 }
 
