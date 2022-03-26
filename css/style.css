@@ -162,6 +162,7 @@ header .menu__item:hover {
 
 main {
   /* border-style: solid var(--secondaryColor) 50px; */
+  /* background-repeat: space; */
   padding: 1rem;
   background-image: url("https://images.unsplash.com/photo-1647258607189-f0bae637f02c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
 }
