@@ -1,0 +1,25 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include path scss sass/index.scss css/main.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LionelLescano/proyectoCoder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LionelLescano/proyectoCoder/issues"
+  },
+  "homepage": "https://github.com/LionelLescano/proyectoCoder#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "nodesass": "^0.0.2-security"
+  }
+}

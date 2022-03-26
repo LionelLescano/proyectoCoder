@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <title>Muebles S.R.L.</title>
+    <title>Galeria</title>
 
 </head>
 
@@ -31,9 +31,9 @@
                     <li class="menu__item">
                         <a href="../../index.html " class="menu__link">Home</a></li>
                     <li class="menu__item">
-                        <a href="ubicacion.html" class="menu__link">Donde estamos</a></li>
-                    <li class="menu__item">
                         <a href="gallery.html" class="menu__link">Galeria </a></li>
+                    <li class="menu__item">
+                        <a href="ubicacion.html" class="menu__link">Donde estamos</a></li>
                     <li class="menu__item">
                         <a href="rentabilidad.html" class="menu__link">Rentabilidad anual
                         </a> </li>
@@ -46,138 +46,166 @@
                 </div>
                 </div>
 
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">User</label>
+                      <input placeholder="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text"></div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input placeholder="******" type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+
             </nav>
 
 
         </header>
         <main>
 
+            <h2 class="titulo_galeria container">
+                Algunas de nuestras propiedades:
+            </h2>
+
             <div id="carouselExampleFade" class="carousel slide carousel-fade container" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="../images/inmueble4.jpg" class="d-block w-100"  alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/inmueble4.jpg" class="d-block w-100 "alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/inmueble4.jpg" class="d-block w-100 "alt="...">
-                  </div>
+                    <div class="carousel-item active">
+                        <img src="../images/inmueble39.jpg" class="d-block w-100" alt="imagencasa1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/inmueble40.jpg" class="d-block w-100 " alt="imagencasa2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/inmueble41.jpg" class="d-block w-100 " alt="imagencasa3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/inmueble42.jpg" class="d-block w-100 " alt="imagencasa4">
+                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+            </div>
+
+            <section>
+
+                <article>
+                    <div class="contenedor__galeria container flex-row ">
+
+                        <div class="contenedor-gallery container" data-aos="fade-up">
+                            <label for="mueble1"> Propiedad en Santa fe:</label>
+                            <p>
+                                Direccion: Paraná 308 <br>
+                                Ambientes: 5 Ambientes <br>
+                                Terreno: 350 metros cuadrado <br>
+                                <a href="https://www.google.com.ar/maps">Click aqui para ver ubicacion en el mapa:</a>
+                            </p>
+                        </div>
+
+                        <div class="contenedor-gallery container" data-aos="fade-up">
+                            <label for="mueble1"> Propiedad en Tigre:</label>
+                            <p>
+                                Direccion: Barrio Cerrado Barrancas de San José <br>
+                                Ambientes: 9 Ambientes <br>
+                                Terreno: 426 metros cuadrados <br>
+                                <a href="https://www.google.com.ar/maps">Click aqui para ver ubicacion en el mapa:</a>
+                            </p>
 
 
+                        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- <section>
-            
-            <article>
-                <div class="contenedor-gallery container">
-                    <h2>
-                        Unas imagenes de nuestras propiedades:
-                    </h2>
-                    <label for="mueble1"> Propiedad en Santa fe:</label>
-                    <p>
-                        Direccion: Paraná 308 <br>
-                        Ambientes: 5 Ambientes <br>
-                        Terreno: 350 metros cuadrado
-                    </p>
-                    <br>
-                    <img src="../images/inmueble1.jfif" alt="mueble1" width="500px" height="300px">
-                    <br>
-                </div>
-                <div class="contenedor-gallery container">
-                    <label for="mueble1"> Propiedad en Tigre:</label>
-                    <p>
-                        Direccion: Barrio Cerrado Barrancas de San José <br>
-                        Ambientes: 9 Ambientes <br>
-                        Terreno: 426 metros cuadrados
-
-                    </p>
-                    <br>
-                    <picture>
-                        <img src="../images/inmueble5.jpg" alt="mueble5" width="500px" height="300px">
-                    </picture>
-                </div>
-            </article>
-        </section> -->
+                    </div>
+                </article>
+            </section>
 
         </main>
         </section>
         <footer class="footer container flex-column">
 
-            <picture class="footer__logo" data-aos="fade-left">
-                <a href="../../index.html">
 
-                    <img src="../images/mueblessrl.png" alt="logo_empresa" width="70%">
 
-                </a>
-            </picture>
-            <div class="footer__derechos">
-                <p>
-                    Muebles Argentina S.R.L NO ejerce el corretaje inmobiliario. Cada oficina es de propiedad y gestión
-                    independiente. En cumplimiento de las leyes vigentes que regulan el corretaje inmobiliario, Ley
-                    Nacional
-                    25.028, Ley 22.802 de Lealtad Comercial, Ley 24.240 de Defensa al Consumidor, las normas del Código
-                    Civil y Comercial de la Nación y Constitucionales, los agentes/gestores NO ejercen el corretaje
-                    inmobiliario.
-                </p><br>
-            </div>
+            <footer class="py-3 my-4">
 
-            <div class="footer__extras flex-column">
-                <div class="footer__redes-links ">
-                    <h4>Seguinos en nuetras redes:</h4>
-                    <ul class="footer__redes-logos flex-row">
-                        <li><a class="footer__redes--imagen" href="https://www.facebook.com/"><img
-                                    src="../images/facebook-square-logo-24.png" alt="logofacebook" width="40px"></a>
-                        </li>
-                        <li><a class="footer__redes--imagen" href="https://www.instagram.com/"><img
-                                    src="../images/bxl-instagram-alt.png" alt="logoinstagram" width="40px"></a>
-                        </li>
-                        <li><a class="footer__redes--imagen" href="https://www.twitter.com/"><img
-                                    src="../images/bxl-twitter.png" alt="logotwitter" width="40px"></a>
-                        </li>
-                        <li><a class="footer__redes--imagen" href="https://www.youtube.com/"><img
-                                    src="../images/bxl-youtube.png" alt="logoyoutube" width="40px"></a>
-                        </li>
-                    </ul>
+                <!-- 
+                <picture class="footer__logo container " data-aos="fade-left">
+                    <a href="./index.html">
+        
+                        <img src="./assets/images/mueblessrl.png" alt="logo_empresa">
+        
+                    </a>
+                </picture> -->
+
+                <div class="footer__derechos">
+                    <p>
+                        Muebles Argentina S.R.L NO ejerce el corretaje inmobiliario. Cada oficina es de propiedad y
+                        gestión
+                        independiente. En cumplimiento de las leyes vigentes que regulan el corretaje inmobiliario, Ley
+                        Nacional
+                        25.028, Ley 22.802 de Lealtad Comercial, Ley 24.240 de Defensa al Consumidor, las normas del
+                        Código
+                        Civil y Comercial de la Nación y Constitucionales, los agentes/gestores NO ejercen el corretaje
+                        inmobiliario.
+                    </p><br>
                 </div>
-            </div>
-
-        </footer>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-        </script>
+                <div class="footer__extras flex-column">
+                    <div class="footer__redes-links ">
+                        <h4>Seguinos en nuetras redes:</h4>
+                        <ul class="footer__redes-logos flex-row">
+                            <li><a class="footer__redes--imagen" href="https://www.facebook.com/"><img
+                                        src="../images/facebook-square-logo-24.png" alt="logofacebook"
+                                        width="40px"></a>
+                            </li>
+                            <li><a class="footer__redes--imagen" href="https://www.instagram.com/"><img
+                                        src="../images/bxl-instagram-alt.png" alt="logoinstagram"
+                                        width="40px"></a></li>
+                            <li><a class="footer__redes--imagen" href="https://www.twitter.com/"><img
+                                        src="../images/bxl-twitter.png" alt="logotwitter" width="40px"></a>
+                            </li>
+                            <li><a class="footer__redes--imagen" href="https://www.youtube.com/"><img
+                                        src="../images/bxl-youtube.png" alt="logoyoutube" width="40px"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container">
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item"><a href="../../index.html" class="nav-link px-2 text-muted">Home</a></li>
+                        <li class="nav-item"><a href="gallery.html"
+                                class="nav-link px-2 text-muted">Gallery</a></li>
+                        <li class="nav-item"><a href="ubicacion.html"
+                                class="nav-link px-2 text-muted">Ubicacion</a></li>
+                        <li class="nav-item"><a href="contacto.html"
+                                class="nav-link px-2 text-muted">Contact</a></li>
+                        <li class="nav-item"><a href="https://www.youtube.com/watch?v=MP5azPfyTDc"
+                                class="nav-link px-2 text-muted">Youtube</a></li>
+                    </ul>
+                    <p class="text-center text-muted">© 2021 Muebles S.R.L., Inc</p>
+                </div>
+            </footer>
 
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-        <script>
-            AOS.init();
-        </script>
-
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                crossorigin="anonymous">
+            </script>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
 
 
 </body>
