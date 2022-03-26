@@ -46,9 +46,7 @@ a {
 
 img {
   display: block;
-  border-radius: 50%;
-  border-color: white;
-  border-style: solid;
+  
 }
 
 body {
@@ -92,11 +90,17 @@ header .navbar {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  /* border-bottom: var(--secondaryColor);
-  border-left: var(--principalColor);
-  border-right: var(--secondaryColor);
-  border-top: var(--secondaryColor);
-  border-style: solid; */
+  
+}
+
+/* header .menu__item {
+  transition: transform .5s ease-in-out;
+} */
+
+header .menu__item:hover {
+  transition: transform .2s ease-in-out;
+  transform: scale(1.3);
+
 
 }
 
@@ -110,8 +114,10 @@ header .logoEmpresa {
  
 }
 
-header .logoEmpresa:hover {
-  transform: scale(1.1);
+header picture img {
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
 }
 
 @media screen and (max-width: 768px) {
@@ -239,6 +245,10 @@ main .contenedor__clientes .clientes_enlaces:hover {
 
 }
 
+main div img {
+  border-style: none;
+  border-radius: none;
+}
 
 footer {
 
@@ -251,6 +261,12 @@ footer .footer__logo {
   min-width: 360px;
   transition: all 1s ease-in-out;
   padding: 2rem;
+}
+
+footer picture img {
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
 }
 
 footer .footer__logo:hover {
