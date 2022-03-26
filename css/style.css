@@ -6,7 +6,7 @@
 
   --principalColor: #BFECC7;
   --secondaryColor: white;
-  --text-lg: 1.9em;
+  --text-lg: 1.5em;
   --text-md: 1.4em;
   --bg-gradient: linear-gradient(to right, #bfecc7, #bfecc7, #bfecc7, #bfecc7, #bfecc7, #c4eecb, #c8efcf, #cdf1d3, #d7f5dc, #e2f8e5, #ecfcee, #f6fff7);
 
@@ -114,9 +114,25 @@ header .logoEmpresa:hover {
   transform: scale(1.1);
 }
 
-@media (max-width: 825px) {
+@media screen and (max-width: 768px) {
   header .logoEmpresa img {
     width: 70%;
+    
+  }
+   header a {
+    text-align: center;
+   }
+  header{
+    font-size: .8em;
+    padding: 2rem;
+  }
+
+  header .navbar {
+    justify-content: center;
+    flex-direction: column;
+  }
+  html {
+    font-size: 50;
   }
 }
 
@@ -133,15 +149,15 @@ header .menu {
 }
 
 header .menu__item {
-  border: 2px solid var(--bg-gradient);
-  transition: border-color .2s ease-in-out;
+  background-color:none ;  
+  transition: background-color .10s ease-in-out;
   height: 6rem;
 
 }
 
 header .menu__item:hover {
-  border: 2px solid var(--secondaryColor);
-  background-color: var(--principalColor);
+  /* border: 2px solid var(--secondaryColor); */
+  background-color: var(--secondaryColor);
 
 }
 
@@ -226,7 +242,7 @@ main .contenedor__clientes .clientes_enlaces:hover {
 
 footer {
 
-  min-height: 10vh;
+  min-height: 15vh;
 }
 
 footer .footer__logo {
