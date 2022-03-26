@@ -256,6 +256,11 @@ main .contenedor__clientes .clientes_enlaces:hover {
 
 }
 
+.contenedor__galeria {
+  display: flex;
+  flex-direction: row;
+}
+
 .titulo_galeria {
   background-image: var(--bg-gradient);
   max-width: 300px;
@@ -276,6 +281,18 @@ main .contenedor__clientes .clientes_enlaces:hover {
   font-size: 1.7em;
   border-radius: 50px;
 
+}
+
+@media (max-width: 576px) {
+  .contenedor__galeria {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedor-gallery {
+    font-size: 1.3em;
+  }
+  
 }
 
 footer {
