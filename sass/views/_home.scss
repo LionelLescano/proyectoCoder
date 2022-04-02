@@ -1,0 +1,89 @@
+main {
+    padding: 1rem;
+    background-image: url("../assets/images/fondo.jpg");
+
+    h2 {
+        text-align: center;
+    }
+
+    .elementos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .vendedora img {
+        width: 100%;
+        max-width: 700px;
+        min-width: 360px;
+        padding: 1rem;
+        border-style: solid;
+        border-color: $secondaryColor;
+    }
+
+    .contenedor {
+        font-size: $text-md;
+
+        &__principal {
+            background-image:$bg-gradient;
+            font-size: $text-lg;
+            border-radius: 10%;
+            padding: 3rem;
+
+            border-bottom: $secondaryColor;
+            border-left: $principalColor;
+            border-right: $principalColor;
+            border-top: $secondaryColor;
+            border-style: solid;
+        }
+
+        &__clientes {
+
+            background-image: $bg-gradient;
+            font-size: $text-lg;
+            border-radius: 10%;
+            padding: 3rem;
+            border-bottom: $secondaryColor;
+            border-left: $principalColor;
+            border-right: $principalColor;
+            border-top: $secondaryColor;
+            border-style: solid;
+            margin-top: 50px;
+
+            &--titulo {
+
+                margin: 2rem auto;
+
+            }
+
+
+
+        }
+
+        & .clientes_enlaces {
+            color: black;
+            background-color: $principalColor;
+            transition: background-color .11s ease-in-out;
+            border-radius: 10%;
+            margin: 3rem auto;
+
+            &:hover {
+                color: black;
+                background-color: #ACECF7;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 576px) {
+ 
+    .elementos {
+      display: flex;
+      flex-direction: column;
+   }
+ 
+   main  picture .vendedora {
+     width: 70%;
+   }
+ }

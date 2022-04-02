@@ -1,0 +1,163 @@
+/*IMPORTS*/
+/*MISCELANEOUS*/
+/*VARIABLES*/
+/*RESET*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* globals*/
+html {
+  font-size: 62.5%; }
+
+ul {
+  list-style-type: none; }
+
+ol {
+  list-style-type: none; }
+
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block; }
+
+img {
+  display: block; }
+
+body {
+  background-color: #BFECC7;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+h2 {
+  font-size: 1.4em; }
+
+body {
+  background-image: linear-gradient(to right, #bfecc7, #bfecc7, #bfecc7, #bfecc7, #bfecc7, #c4eecb, #c8efcf, #cdf1d3, #d7f5dc, #e2f8e5, #ecfcee, #f6fff7); }
+
+/* HELPERS */
+.flex-row {
+  display: flex; }
+
+.flex-column {
+  display: flex;
+  flex-direction: column; }
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto; }
+
+/*PARTIALS*/
+/* HEADER*/
+header {
+  background-color: linear-gradient(to right, #bfecc7, #bfecc7, #bfecc7, #bfecc7, #bfecc7, #c4eecb, #c8efcf, #cdf1d3, #d7f5dc, #e2f8e5, #ecfcee, #f6fff7);
+  font-size: 1.2em; }
+  header nav form input {
+    max-width: 250px; }
+  header a {
+    text-align: center;
+    padding: 2rem; }
+  header picture img {
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid; }
+  header .navbar {
+    min-height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    flex-wrap: wrap; }
+    header .navbar__menu {
+      flex-basis: 40%;
+      justify-content: space-between; }
+      header .navbar__menu__item {
+        background-color: none;
+        transition: background-color .10s ease-in-out;
+        height: 6rem; }
+        header .navbar__menu__item:hover {
+          background-color: white;
+          transition: transform .2s ease-in-out;
+          transform: scale(1.3); }
+        header .navbar__menu__item__link {
+          font-size: 1.4em;
+          padding: 1rem; }
+  header .logoEmpresa {
+    width: 100%;
+    min-width: 360px;
+    flex-basis: 30%;
+    padding: 2rem;
+    min-width: none;
+    transition: all 1s ease-in-out; }
+
+@media screen and (max-width: 768px) {
+  header .logoEmpresa img {
+    width: 70%;
+    margin: 0 auto; } }
+
+footer {
+  min-height: 15vh; }
+  footer h4 {
+    font-size: 1.5em; }
+  footer .footer__derechos {
+    padding: 5rem; }
+
+/*VIEWS*/
+main {
+  padding: 1rem;
+  background-image: url("../assets/images/fondo.jpg"); }
+  main h2 {
+    text-align: center; }
+  main .elementos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  main .vendedora img {
+    width: 100%;
+    max-width: 700px;
+    min-width: 360px;
+    padding: 1rem;
+    border-style: solid;
+    border-color: white; }
+  main .contenedor {
+    font-size: 1.4em; }
+    main .contenedor__principal {
+      background-image: linear-gradient(to right, #bfecc7, #bfecc7, #bfecc7, #bfecc7, #bfecc7, #c4eecb, #c8efcf, #cdf1d3, #d7f5dc, #e2f8e5, #ecfcee, #f6fff7);
+      font-size: 1.5em;
+      border-radius: 10%;
+      padding: 3rem;
+      border-bottom: white;
+      border-left: #BFECC7;
+      border-right: #BFECC7;
+      border-top: white;
+      border-style: solid; }
+    main .contenedor__clientes {
+      background-image: linear-gradient(to right, #bfecc7, #bfecc7, #bfecc7, #bfecc7, #bfecc7, #c4eecb, #c8efcf, #cdf1d3, #d7f5dc, #e2f8e5, #ecfcee, #f6fff7);
+      font-size: 1.5em;
+      border-radius: 10%;
+      padding: 3rem;
+      border-bottom: white;
+      border-left: #BFECC7;
+      border-right: #BFECC7;
+      border-top: white;
+      border-style: solid;
+      margin-top: 50px; }
+      main .contenedor__clientes--titulo {
+        margin: 2rem auto; }
+    main .contenedor .clientes_enlaces {
+      color: black;
+      background-color: #BFECC7;
+      transition: background-color .11s ease-in-out;
+      border-radius: 10%;
+      margin: 3rem auto; }
+      main .contenedor .clientes_enlaces:hover {
+        color: black;
+        background-color: #ACECF7; }
+
+@media (max-width: 576px) {
+  .elementos {
+    display: flex;
+    flex-direction: column; }
+  main picture .vendedora {
+    width: 70%; } }
