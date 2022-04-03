@@ -20,22 +20,38 @@
 <body>
     <!--comienzo de HEADER -->
     <header>
-        <nav class="navbar flex-row container">
-            <picture class="logoEmpresa animate__animated animate__fadeInLeft">
-                <a href="./index.html">
-                    <img src="./assets/images/mueblessrl.png" alt="logo_empresa">
-                </a>
-            </picture>
+        <nav class="navbar container">
+            <div class=" separador flex-row">
+                <picture class="navbar__logoEmpresa animate__animated animate__fadeInLeft">
+                    <a href="./index.html">
+                        <img src="./assets/images/mueblessrl.png" alt="logo_empresa">
+                    </a>
+                </picture>
+                <div class="navbar__hamburguesa ">
+                    <input type="checkbox" id="menu">
+                    <label for="menu"> ☰ </label>
+                    <ul>
+                        <li><a href="index.html " class="menu__link">Home</a></li>
+                        <li><a href="assets/pages/gallery.html" class="menu__link">Galeria </a></li>
+                        <li><a href="assets/pages/ubicacion.html" class="menu__link">Donde estamos</a></li>
+                        <li><a href="assets/pages/rentabilidad.html" class="menu__link">Rentabilidad anual</a></li>
+                        <li><a class="menu__link" href="assets/Pages/contacto.html">Contact </a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+
             <ul class="navbar__menu animate__animated animate__zoomIn flex-row ">
                 <li class="navbar__menu__item">
-                    <a href="index.html " class="menu__link">Home</a></li>
+                    <a href="index.html " class="navbar__menu__link">Home</a></li>
                 <li class="navbar__menu__item">
-                    <a href="assets/pages/gallery.html" class="menu__link">Galeria </a></li>
+                    <a href="assets/pages/gallery.html" class="navbar__menu__link">Galeria </a></li>
                 <li class="navbar__menu__item">
-                    <a href="assets/pages/ubicacion.html" class="menu__link">Donde estamos</a></li>
+                    <a href="assets/pages/ubicacion.html" class="navbar__menu__link">Donde estamos</a></li>
 
                 <li class="navbar__menu__item">
-                    <a href="assets/pages/rentabilidad.html" class="menu__link">Rentabilidad anual
+                    <a href="assets/pages/rentabilidad.html" class="navbar__menu__link">Rentabilidad anual
                     </a> </li>
                 <li class="navbar__menu__item">
                     <a class="menu__link" href="https://www.youtube.com/watch?v=MP5azPfyTDc">Youtube</a></li>
@@ -96,7 +112,7 @@
 
                 <div class="contenedor__clientes container " data-aos="fade-left">
                     <h2 class="contenedor__clientes--titulo">Nuestros principales clientes:</h2><br>
-                    <div class = "elementos">
+                    <div>
                         <ol>
                             <li><a class="clientes_enlaces" href="https://www.kwargentina.com/"> - Keller Williams. </a>
                             </li><br>
@@ -109,10 +125,11 @@
                             </li><br>
 
                         </ol>
-                        <picture class="vendedora">
-                            <img src="./assets/images/vendedora.jpg" alt="imagen vendedora">
-                        </picture>
                     </div>
+                    <picture class="vendedora">
+                        <img src="./assets/images/vendedora.jpg" alt="imagen vendedora">
+                    </picture>
+
 
                 </div>
 
