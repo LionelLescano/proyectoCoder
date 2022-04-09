@@ -1,0 +1,31 @@
+.titulo_galeria {
+    background-image: $bg-gradient;
+    max-width: 300px;
+    padding: map-get($paddings , xxlarge );
+    margin: 2rem auto;
+    font-size: 2em;
+    font-style: italic;
+  }
+
+  .contenedor__galeria {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contenedor-gallery {
+    text-align: center;
+    background-image: $bg-gradient;
+    padding: map-get($paddings , medium );
+    margin: 1rem 3px;
+    font-size: 1.7em;
+    border-radius: 50px;
+  
+  }
+
+  @media (max-width: 580px) {
+    .contenedor__galeria {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }

@@ -5,6 +5,8 @@ header {
     background-color: $bg-gradient;
     font-size: 1.2em;
 
+    
+
 
     nav form input {
         max-width: 250px;
@@ -39,13 +41,17 @@ header {
             flex-basis: 30%;
             padding: 2rem;
             min-width: none;
-            transition: all 1s ease-in-out;
+           
         }
 
         &__hamburguesa {
 
             text-align: center;
 
+
+            & #burgermenu {
+                font-size: map-get($font-size, large );
+            }
 
             & input {
                 display: none;
@@ -54,7 +60,7 @@ header {
             & ul {
                 display: none;
                 & a {
-                    font-size: $text-md;
+                    font-size: map-get($font-size , large );
                     padding: 0.5rem;
 
                 }
@@ -105,7 +111,7 @@ header {
                 }
 
                 &__link {
-                    font-size: $text-md;
+                    font-size: map-get($font-size , medium );
                     padding: 0.5rem;
 
                 }

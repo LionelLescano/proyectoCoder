@@ -1,11 +1,9 @@
 footer {
     min-height: 15vh;
 
-    h4 {
-        font-size: $text-lg;
-    }
-
+  
     .footer__derechos {
+        font-size: map-get($font-size , medium);
         padding: 5rem;
     }
   

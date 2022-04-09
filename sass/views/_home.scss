@@ -1,5 +1,5 @@
 main {
-    padding: 1rem;
+    padding: map-get($paddings , medium );
     background-image: url("../assets/images/fondo.jpg");
 
     h2 {
@@ -11,19 +11,19 @@ main {
         width: 100%;
         max-width: 700px;
         min-width: 210px;
-        padding: 1rem;
+        padding: map-get($paddings , medium );
         border-style: solid;
         border-color: $secondaryColor;
     }
 
     .contenedor {
-        font-size: $text-md;
+        font-size: map-get($font-size, large );
 
         &__principal {
             background-image:$bg-gradient;
-            font-size: $text-lg;
+            font-size: map-get($font-size , xlarge);
             border-radius: 10%;
-            padding: 3rem;
+            padding: map-get($paddings , xxxlarge );
 
             border-bottom: $secondaryColor;
             border-left: $principalColor;
@@ -35,9 +35,9 @@ main {
         &__clientes {
 
             background-image: $bg-gradient;
-            font-size: $text-lg;
+            font-size: map-get($font-size , xlarge);
             border-radius: 10%;
-            padding: 3rem;
+            padding: map-get($paddings , xxxlarge );
             border-bottom: $secondaryColor;
             border-left: $principalColor;
             border-right: $principalColor;
