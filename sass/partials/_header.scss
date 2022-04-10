@@ -3,7 +3,7 @@
 header {
 
     background-color: $bg-gradient;
-    font-size: 1.2em;
+    font-size: map-get($font-size , large );
 
     
 
@@ -15,7 +15,7 @@ header {
 
     a {
         text-align: center;
-        padding: 2rem;
+        padding: map-get($paddings , small );
     }
 
     picture img {
@@ -30,16 +30,16 @@ header {
         min-height: 10vh;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem;
         display: flex;
         flex-wrap: wrap;
+        padding: map-get($paddings , medium);
 
         &__logoEmpresa img {
           
             width: 100%;
             min-width: 160px;
             flex-basis: 30%;
-            padding: 2rem;
+            padding: map-get($paddings , xxlarge );
             min-width: none;
            
         }
@@ -61,7 +61,7 @@ header {
                 display: none;
                 & a {
                     font-size: map-get($font-size , large );
-                    padding: 0.5rem;
+                    padding: map-get($paddings, small );
 
                 }
 
@@ -69,7 +69,7 @@ header {
                     display: block;
                     background: $principalColor;
                     margin: 0 auto;
-                    padding: 1rem;
+                    padding: map-get($paddings, small );
                     list-style: none;
                     border-bottom: 1px solid grey;
                 }
@@ -95,8 +95,9 @@ header {
 
 
         &__menu {
+            @include flex(row,space-around,center,1rem);
             flex-basis: 40%;
-            justify-content: space-between;
+            
 
             &__item {
                 background-color: none;
@@ -112,7 +113,7 @@ header {
 
                 &__link {
                     font-size: map-get($font-size , medium );
-                    padding: 0.5rem;
+                    padding:map-get($paddings, small );
 
                 }
 

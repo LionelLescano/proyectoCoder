@@ -1,6 +1,11 @@
 footer {
     min-height: 15vh;
 
+    .footer__redes-logos {
+        @include flex( row,center,center,1rem);
+        margin-right: 30px;
+        
+    }
   
     .footer__derechos {
         font-size: map-get($font-size , medium);

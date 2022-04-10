@@ -77,4 +77,11 @@ main {
    main  picture .vendedora {
      display: none;
    }
+
+   main .contenedor{
+
+    font-size: map-get($font-size, medium );
+
  }
+
+}
