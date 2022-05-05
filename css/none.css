@@ -260,14 +260,14 @@ main .contenedor__clientes--titulo {
    
 } */
 
-/* main .elementos { 
+ main .elementos { 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-} */
+} 
 
 
-/* .contenedor__galeria {
+ .contenedor__galeria {
   display: flex;
   flex-direction: row;
 }
@@ -314,7 +314,7 @@ main .contenedor__clientes--titulo {
   main  picture .vendedora {
     width: 70%;
   }
-} */
+} 
 
 
 /* FOOTER */

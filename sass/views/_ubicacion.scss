@@ -1,0 +1,8 @@
+main {
+    .titulo-ubicacion {
+       padding: map-get($paddings, xxxlarge );
+       background-color: $secondaryColor;
+       color: $secondaryColor;
+    }
+}
+
