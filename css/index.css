@@ -229,3 +229,27 @@ main {
     flex-direction: column; }
   .contenedor-gallery {
     font-size: 1.1em; } }
+
+main article .ubicacion_titulo {
+  padding: 1.3rem;
+  background-color: #BFECC7;
+  color: black;
+  border-color: #BFECC7; }
+
+main article .ubicacion_norte {
+  text-align: center;
+  padding: 1.3rem;
+  font-size: 1.5em;
+  background-color: #BFECC7; }
+
+main article .ubicacion_texto {
+  background-color: #BFECC7;
+  font-size: 1.5em;
+  padding: 1.3rem;
+  text-align: center; }
+
+main article picture {
+  padding: 2rem; }
+  main article picture .imagen_ubicacion {
+    width: 900px;
+    height: 750px; }

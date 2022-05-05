@@ -1,8 +1,38 @@
 main {
-    .titulo-ubicacion {
-       padding: map-get($paddings, xxxlarge );
-       background-color: $secondaryColor;
-       color: $secondaryColor;
+    article {
+
+        .ubicacion_titulo {
+            padding: map-get($paddings, large);
+            background-color: $principalColor;
+            color: $letterColor;
+            border-color: $principalColor;
+
+        }
+
+        .ubicacion_norte {
+            text-align: center;
+            padding: map-get($paddings , large );
+            font-size: map-get($font-size, xlarge );
+            background-color: $principalColor;
+
+        }
+
+        .ubicacion_texto {
+            background-color: $principalColor;
+            font-size: map-get($font-size, xlarge);
+            padding: map-get($paddings, large);
+            text-align: center;
+
+        }
+
+        picture {
+            padding: map-get($paddings, xxlarge );
+           
+            .imagen_ubicacion {
+                width: 900px;
+                height: 750px;
+            }
+
+        }
     }
 }
-
