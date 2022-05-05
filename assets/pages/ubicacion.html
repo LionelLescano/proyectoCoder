@@ -1,74 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/index.css">
-    <title>Ubicacion</title>
-
-</head>
-
-<body>
-    <!--comienzo de HEADER -->
-
-
-    <header>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content ="Galeria de imagenes de nuestras propiedades disponibles.">
+        <meta name="keywords" content ="INMUEBLE, ALQUILER, CASAS, RENTA, ARGENTINA, BIENESTAR ">
+        <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/index.css">
+    
+        <title>Muebles S.R.L. || Galeria de propiedades</title>
+    
+    </head>
+    
+    <body>
+        <!--comienzo de HEADER -->
         <header>
-            <nav class="navbar flex-row container">
-                <picture class="logoEmpresa animate__animated animate__fadeInLeft">
-                    <a href="../../index.html">
-                        <img src="../images/mueblessrl.png" alt="logo_empresa">
-                    </a>
-                </picture>
-                <ul class="menu animate__animated animate__zoomIn flex-row ">
-                    <li class="menu__item">
-                        <a href="../../index.html " class="menu__link">Home</a></li>
-                    <li class="menu__item">
-                        <a href="gallery.html" class="menu__link">Galeria </a></li>
-                    <li class="menu__item">
-                        <a href="ubicacion.html" class="menu__link">Donde estamos</a></li>
-                    <li class="menu__item">
-                        <a href="rentabilidad.html" class="menu__link">Rentabilidad anual
-                        </a> </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="https://www.youtube.com/watch?v=MP5azPfyTDc">Youtube</a></li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="contacto.html">Contact </a>
-                    </li>
-                </ul>
-                </div>
-                </div>
-
-                <form>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">User</label>
-                      <input placeholder="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text"></div>
+    
+            <header>
+                <nav class="navbar container">
+                    <div>
+                        <picture class="navbar__logoEmpresa animate__animated animate__fadeInLeft">
+                            <a href="../../index.html">
+                                <img src="../images/mueblessrl.png" alt="logo_empresa">
+                            </a>
+                        </picture>
+                        <div class="navbar__hamburguesa ">
+                            <input type="checkbox" id="menu">
+                            <label #id ="burgermenu" for="menu"> ☰ </label>
+                            <ul>
+                                <li><a href="../../index.html" class="menu__link">Home</a></li>
+                                <li><a href="gallery.html" class="menu__link">Galeria </a></li>
+                                <li><a href="../pages/ubicacion.html" class="menu__link">Donde estamos</a></li>
+                                <li><a href="../pages/rentabilidad.html" class="menu__link">Rentabilidad anual</a></li>
+                                <li><a class="menu__link" href="../pages/contacto.html">Contact </a></li>
+        
+                            </ul>
+                        </div>
+        
                     </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input placeholder="******" type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
-
-            </nav>
-
-
-        </header>
+        
+                    <ul class="navbar__menu animate__animated animate__zoomIn flex-row ">
+                        <li class="navbar__menu__item">
+                            <a href="../../index.html" class="navbar__menu__link">Home</a></li>
+                        <li class="navbar__menu__item">
+                            <a href="../pages/gallery.html" class="navbar__menu__link">Galeria </a></li>
+                        <li class="navbar__menu__item">
+                            <a href="../pages/ubicacion.html" class="navbar__menu__link">Donde estamos</a></li>
+        
+                        <li class="navbar__menu__item">
+                            <a href="../pages/rentabilidad.html" class="navbar__menu__link">Rentabilidad anual
+                            </a> </li>
+                        <li class="navbar__menu__item">
+                            <a class="menu__link" href="https://www.youtube.com/watch?v=MP5azPfyTDc">Youtube</a></li>
+                        <li class="navbar__menu__item">
+                            <a class="menu__link" href="../pages/contacto.html">Contact </a>
+                        </li>
+                    </ul>
+                   
+                </nav>
+        
+        
+            </header>
     <main>
         <!--  -->
         <section class="descripcion">
