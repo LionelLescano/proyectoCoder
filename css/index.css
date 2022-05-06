@@ -128,8 +128,6 @@ header {
     width: 50%;
     margin: 0 auto; }
   header .navbar__menu__item {
-    display: none; }
-  header form {
     display: none; } }
 
 @media (min-width: 600px) {
@@ -252,3 +250,29 @@ main article picture {
     width: 100%;
     max-width: 900px;
     min-width: 320px; }
+
+main .contactenos-imagen {
+  background-color: #BFECC7;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  max-width: 900px;
+  min-width: 320px;
+  padding: 1.3rem;
+  margin-bottom: 20px; }
+
+main .contactenos-form__titulo {
+  background-color: white; }
+
+main .contactenos-form__formulario {
+  text-align: center;
+  background-color: #BFECC7;
+  padding: 1rem; }
+  main .contactenos-form__formulario label {
+    font-size: 1.5em;
+    text-align: justify-content;
+    padding: 1.3rem; }
+
+@media (max-width: 373px) {
+  main .contactenos-imagen {
+    display: none; } }

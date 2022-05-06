@@ -1,0 +1,41 @@
+main { 
+    .contactenos-imagen{
+        background-color: $principalColor;
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        max-width: 900px;
+        min-width: 320px;
+        padding: map-get($paddings, large );
+        margin-bottom: 20px;
+    }
+
+    .contactenos-form{
+
+        &__titulo{
+            background-color: $secondaryColor;
+        }
+
+        &__formulario{
+            
+            text-align: center;
+            background-color: $principalColor;
+            padding: map-get($paddings, medium );
+            
+           
+
+            & label {
+                font-size: map-get($font-size, xlarge );
+                text-align:justify-content;
+                padding: map-get($paddings, large);
+                
+            }
+        }
+    }
+    @media (max-width:373px){
+        .contactenos-imagen{
+            display: none;
+
+        }
+    }
+}
