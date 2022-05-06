@@ -198,8 +198,6 @@ main {
         background-color: #ACECF7; }
 
 @media (max-width: 576px) {
-  main picture .vendedora {
-    display: none; }
   main .contenedor {
     font-size: 1.1em; } }
 
@@ -251,5 +249,6 @@ main article .ubicacion_texto {
 main article picture {
   padding: 2rem; }
   main article picture .imagen_ubicacion {
-    width: 900px;
-    height: 750px; }
+    width: 100%;
+    max-width: 900px;
+    min-width: 320px; }

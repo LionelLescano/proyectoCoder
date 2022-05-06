@@ -29,8 +29,10 @@ main {
             padding: map-get($paddings, xxlarge );
            
             .imagen_ubicacion {
-                width: 900px;
-                height: 750px;
+                width: 100%;
+                max-width: 900px;
+                min-width: 320px;
+                
             }
 
         }
