@@ -1,0 +1,20 @@
+main {
+    .contenedor-rent {
+        text-align: center;
+        background-color: $principalColor;
+        padding: map-get($paddings, large);
+        display: flex;
+        flex-direction: column;
+
+        &__titulo2 {
+            padding: map-get($paddings, large);
+        }
+
+        td {
+            padding: map-get($paddings, large);
+
+
+        }
+    }
+
+}

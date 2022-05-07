@@ -146,6 +146,9 @@ footer {
   footer .footer__derechos {
     font-size: 1.1em;
     padding: 5rem; }
+  @media (max-width: 400px) {
+    footer {
+      font-size: 0.8em; } }
 
 /*VIEWS*/
 main {
@@ -276,3 +279,14 @@ main .contactenos-form__formulario {
 @media (max-width: 373px) {
   main .contactenos-imagen {
     display: none; } }
+
+main .contenedor-rent {
+  text-align: center;
+  background-color: #BFECC7;
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column; }
+  main .contenedor-rent__titulo2 {
+    padding: 1.3rem; }
+  main .contenedor-rent td {
+    padding: 1.3rem; }
